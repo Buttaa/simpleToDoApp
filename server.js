@@ -21,6 +21,7 @@ mongodb.connect(connectionString, {useNewUrlParser: true, useUnifiedTopology: tr
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
+/*
 function passwordProtected(req, res, next) {
   res.set('WWW-Authenticate', 'Basic realm="Simple Todo App"')
   console.log(req.headers.authorization)
@@ -30,6 +31,7 @@ function passwordProtected(req, res, next) {
     res.status(401).send("Authentication required")
   }
 }
+*/
 
 app.use(passwordProtected)
 
