@@ -21,7 +21,7 @@ mongodb.connect(connectionString, {useNewUrlParser: true, useUnifiedTopology: tr
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
-
+/*
 function passwordProtected(req, res, next) {
   res.set('WWW-Authenticate', 'Basic realm="Simple Todo App"')
   console.log(req.headers.authorization)
@@ -32,9 +32,8 @@ function passwordProtected(req, res, next) {
   }
 }
 
-
-
 app.use(passwordProtected)
+*/
 
 app.get('/', function(req, res) {
   db.collection('items').find().toArray(function(err, items) {
