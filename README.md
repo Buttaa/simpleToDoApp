@@ -1,6 +1,6 @@
 # Simple To Do App
 
-This is my first (badly structured) fullstsack project to learn the basics
+This is my first (badly structured) fullstack project to learn the basics
 
 MongoDB + Heroku
 
