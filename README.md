@@ -2,6 +2,6 @@
 
 This is my first (badly structured) fullstack project to learn the basics
 
-MongoDB + Heroku
+MongoDB for the database + Heroku to deploy the webpage
 
 https://todoappbutta.herokuapp.com/
